@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Suriya S - Data Analyst portfolio">
+<title>Suriya S | Data Analyst Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<div class="progress" id="progress"></div>
+
+<header class="navbar">
+  <a class="brand" href="#home">SURIYA<span>.</span></a>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#experience">Experience</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-cta" href="resume.pdf" download>Resume ↗</a>
+  <button class="menu" aria-label="Menu">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-left">
+    <div class="availability"><i></i> OPEN TO DATA ANALYST OPPORTUNITIES</div>
+    <p class="eyebrow">DATA ANALYST · BUSINESS INTELLIGENCE · HEALTHCARE ANALYTICS</p>
+    <h1>Turning <span>data</span><br>into decisions.</h1>
+    <p class="hero-copy">I'm <strong>Suriya S</strong>, a Data Analyst with <strong>3 years 10 months</strong> of experience building KPI-driven reports, dashboards and data solutions with Power BI, SQL, Python, Tableau and Excel.</p>
+    <div class="hero-actions">
+      <a class="btn blue" href="#projects">Explore Projects <span>↗</span></a>
+      <a class="btn outline" href="resume.pdf" download>Download Resume <span>↓</span></a>
+    </div>
+    <div class="hero-links">
+      <a href="mailto:suriyasivakumar4702@gmail.com">suriyasivakumar4702@gmail.com</a>
+      <span>9952066724</span>
+      <a href="https://www.linkedin.com/in/igsuri03" target="_blank">LinkedIn ↗</a>
+      <a href="https://github.com/suriyaempire04072002-bit" target="_blank">GitHub ↗</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+    <div class="portrait-frame">
+      <div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+      <img src="assets/suriya-anime-avatar.png" alt="Suriya S">
+      <div class="photo-tag"><b>SURIYA S</b><span>DATA ANALYST</span></div>
+    </div>
+    <div class="floating-card card-power"><b>Power BI</b><span>Dashboard + DAX</span></div>
+    <div class="floating-card card-sql"><b>SQL</b><span>Analysis + Validation</span></div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-head"><span>01</span><div><p>PROFILE</p><h2>Data with a business lens.</h2></div></div>
+  <div class="about-grid">
+    <div class="about-main">
+      <p class="lead-text">I work at the intersection of <b>business requirements, data quality and visualization.</b></p>
+      <p>My professional experience includes healthcare claims, insurance, provider and hospital-related data. I use SQL and Python for extraction, cleaning, transformation and validation, then turn the results into interactive Power BI and Tableau dashboards.</p>
+      <p>I focus on building reliable metrics, understanding the business question behind the data, and communicating insights clearly to stakeholders.</p>
+    </div>
+    <div class="profile-stats">
+      <div><span>EXPERIENCE</span><b>3Y 10M</b><small>Data Analytics</small></div>
+      <div><span>DOMAIN</span><b>Healthcare</b><small>Claims & Insurance</small></div>
+      <div><span>LOCATION</span><b>Chennai</b><small>Tamil Nadu, India</small></div>
+      <div><span>EDUCATION</span><b>MBA Finance</b><small>Madras University</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section dark">
+  <div class="section-head"><span>02</span><div><p>TOOLKIT</p><h2>Skills that ship.</h2></div></div>
+  <div class="skills-grid">
+    <article class="skill"><div class="skill-icon">BI</div><h3>Power BI</h3><p>DAX · Power Query · Data Modeling · KPI Reporting · Power BI Service · Interactive Dashboards</p></article>
+    <article class="skill"><div class="skill-icon">SQL</div><h3>SQL</h3><p>Joins · CTEs · Window Functions · Aggregations · Data Cleaning · Duplicate Detection · Validation</p></article>
+    <article class="skill"><div class="skill-icon">PY</div><h3>Python</h3><p>pandas · NumPy · Cleaning · Transformation · Validation · Exploratory Analysis · Basic Automation</p></article>
+    <article class="skill"><div class="skill-icon">T</div><h3>Tableau</h3><p>Interactive Dashboards · Trend Analysis · Visual Analytics · KPI Reporting</p></article>
+    <article class="skill"><div class="skill-icon">XL</div><h3>Advanced Excel</h3><p>Pivot Tables · VLOOKUP · XLOOKUP · Date Functions · TAT Calculations · Conditional Formatting</p></article>
+    <article class="skill"><div class="skill-icon">HC</div><h3>Healthcare Analytics</h3><p>Claims Analytics · Provider Data · Insurance Data · Reporting · Data Quality</p></article>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-head"><span>03</span><div><p>SELECTED WORK</p><h2>Projects that show the process.</h2></div></div>
+
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button class="active" data-filter="all">All</button><button data-filter="powerbi">Power BI</button><button data-filter="tableau">Tableau</button><button data-filter="sql">SQL</button><button data-filter="python">Python</button><button data-filter="excel">Excel</button>
+  </div>
+
+  <article class="project hr-project" data-tools="tableau excel">
+    <div class="project-label">01 / TABLEAU + EXCEL</div>
+    <div class="hr-project-grid">
+      <div class="hr-visual">
+        <img src="assets/hr-analytics/HR_Analytics_Dashboard.png" alt="HR Analytics Tableau dashboard visual">
+      </div>
+      <div class="hr-project-content">
+        <div class="project-top"><span class="badge">HR ANALYTICS</span><span class="arrow">↗</span></div>
+        <h3>HR Analytics Dashboard</h3>
+        <p>Interactive Tableau dashboard analyzing employee attrition, department, gender, age groups, job roles, education and job satisfaction.</p>
+        <div class="metric-grid">
+          <div><b>1,470</b><span>Employees</span></div>
+          <div><b>237</b><span>Attritions</span></div>
+          <div><b>16.12%</b><span>Attrition Rate</span></div>
+        </div>
+        <div class="chips"><span>Tableau</span><span>Excel</span><span>HR Analytics</span><span>Data Visualization</span></div>
+        <div class="file-links">
+          <a href="https://public.tableau.com/app/profile/suriya.s3146/viz/shared/DX2XSB3HB" target="_blank">Tableau Public ↗</a>
+          <a href="assets/hr-analytics/HR_Analytics_Dashboard.twb" download>Tableau Project ↧</a>
+          <a href="assets/hr-analytics/HR_Analytics_Source_Data.xlsx" download>Source Data ↧</a>
+          <a href="assets/hr-analytics/HR_Analytics_Dashboard.pdf" target="_blank">Dashboard PDF ↗</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="project hr-project" data-tools="powerbi excel">
+    <div class="project-label">02 / POWER BI + EXCEL</div>
+    <div class="hr-project-grid">
+      <div class="hr-visual">
+        <img src="assets/insurance-risk/Insurance_Risk_Dashboard.png" alt="Insurance Risk and Claims Analysis Power BI dashboard visual">
+      </div>
+      <div class="hr-project-content">
+        <div class="project-top"><span class="badge">INSURANCE ANALYTICS</span><span class="arrow">↗</span></div>
+        <h3>Insurance Risk &amp; Claims Analysis</h3>
+        <p>Power BI dashboard built from a business requirement to centralize policyholder and claim data. Analyses claim amount and policy counts by car use, car make, coverage zone, age group, car year, kids driving, education and marital status.</p>
+        <div class="metric-grid">
+          <div><b>37,542</b><span>Policies</span></div>
+          <div><b>$187.8M</b><span>Claim Amount</span></div>
+          <div><b>0.51</b><span>Avg Claim Freq</span></div>
+        </div>
+        <div class="chips"><span>Power BI</span><span>DAX</span><span>Power Query</span><span>Excel</span><span>Risk Analysis</span></div>
+        <div class="file-links">
+          <a href="assets/insurance-risk/Insurance_Risk_Dashboard.pbix" download>Power BI File ↧</a>
+          <a href="assets/insurance-risk/Insurance_Policies_Data.xlsx" download>Excel Data Source ↧</a>
+          <a href="assets/insurance-risk/Business_Requirements.docx" download>Business Requirements ↧</a>
+          <a href="assets/insurance-risk/Domain_Document.docx" download>Domain Document ↧</a>
+          <a href="assets/insurance-risk/Dashboard_Build_Steps.docx" download>Build Steps ↧</a>
+          <a href="assets/insurance-risk/Insurance_Risk_Dashboard.pdf" target="_blank">Dashboard PDF ↗</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="project hr-project" data-tools="tableau excel">
+    <div class="project-label">03 / TABLEAU + EXCEL</div>
+    <div class="hr-project-grid">
+      <div class="hr-visual">
+        <img src="assets/sales-dashboard/Sales_Dashboard.png" alt="Sales Data Tableau dashboard overview visual">
+      </div>
+      <div class="hr-project-content">
+        <div class="project-top"><span class="badge">SALES ANALYTICS</span><span class="arrow">↗</span></div>
+        <h3>Sales Data Dashboard</h3>
+        <p>An interactive Tableau dashboard for exploring sales performance, trends and business KPIs through visual analytics.</p>
+        <div class="metric-grid"><div><b>$733K</b><span>Total Sales</span></div><div><b>$93K</b><span>Total Profit</span></div><div><b>12K</b><span>Quantity</span></div></div>
+        <div class="chips"><span>Tableau</span><span>Excel</span><span>Sales Analysis</span><span>KPI Reporting</span><span>Interactive Dashboard</span></div>
+        <div class="file-links">
+          <a href="https://public.tableau.com/app/profile/suriya.s3146/viz/Sales_Data_Dashboard_ext/SalesDashboardOverview" target="_blank">Tableau Public ↗</a>
+          <a href="assets/sales-dashboard/Sales_Data.xlsx" download>Excel Data Source ↧</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="project-grid" data-tools="python" style="grid-template-columns:1fr;margin-top:14px">
+    <article class="project" style="min-height:0">
+      <div class="project-label">04 / PYTHON</div>
+      <div class="project-top"><span class="badge">DATA CLEANING</span><span class="arrow">↗</span></div>
+      <h3>Python Data Cleaning & Analysis</h3>
+      <p>Practical data preparation and analysis using pandas and NumPy, covering exploration, missing values, duplicate handling, filtering, aggregation and business-oriented analysis.</p>
+      <div class="chips"><span>Python</span><span>pandas</span><span>NumPy</span><span>EDA</span></div>
+      <a class="project-btn" href="assets/python_data_cleaning_analysis.ipynb" download>Open Python Notebook <b>↓</b></a>
+    </article>
+  </div>
+
+  <article class="project hr-project" data-tools="powerbi sql">
+    <div class="project-label">05 / POWER BI + SQL</div>
+    <div class="hr-project-grid">
+      <div class="hr-visual">
+        <img src="assets/blinkit/Blinkit_Dashboard.png" alt="Blinkit Power BI sales dashboard visual">
+      </div>
+      <div class="hr-project-content">
+        <div class="project-top"><span class="badge">BLINKIT</span><span class="arrow">↗</span></div>
+        <h3>Blinkit Sales Data Analysis</h3>
+        <p>Used SQL for data preparation and validation and Power BI for interactive dashboard development. Analysis covers total sales, average sales, item count, ratings, outlet type, outlet location, outlet size and product categories.</p>
+        <div class="metric-grid"><div><b>$1.20M</b><span>Total Sales</span></div><div><b>8,523</b><span>Items</span></div><div><b>3.92</b><span>Avg Rating</span></div></div>
+        <div class="chips"><span>SQL</span><span>Power BI</span><span>DAX</span><span>Power Query</span></div>
+        <div class="file-links">
+          <a href="assets/blinkit/blinkit_analysis.sql" download>SQL Analysis ↧</a>
+          <a href="assets/blinkit/blinkit_analysis_requirements.pptx" download>Project Brief ↧</a>
+          <a href="assets/blinkit/blinkit_sales_dataset.xlsx" download>Excel Dataset ↧</a>
+          <a href="assets/blinkit/blinkit_sales_dashboard.pbix" download>Power BI File ↧</a>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section id="experience" class="section dark">
+  <div class="section-head"><span>04</span><div><p>CAREER</p><h2>Professional experience.</h2></div></div>
+  <div class="timeline">
+    <article><div class="time">SEP 2024 — SEP 2026</div><div class="role"><h3>Senior Data Analyst — Healthcare Analytics</h3><h4>Cognizant Technology Solutions</h4><ul>
+      <li>Designed and maintained interactive Power BI and Tableau dashboards aligned with business KPIs.</li>
+      <li>Built data models using DAX and integrated SQL and Excel sources for accurate reporting.</li>
+      <li>Used SQL and Python to clean, validate and analyze claims data, including duplicate claim ID and payment detection.</li>
+      <li>Translated business requirements into dashboard KPIs, filters and visual reporting outputs.</li>
+      <li>Improved analysis throughput by 50% using Pivot Tables and VLOOKUP on raw client data.</li>
+      <li>Designed Tableau reporting for a financial claims portfolio covering 200+ client accounts.</li>
+    </ul></div></article>
+    <article><div class="time">OCT 2022 — MAY 2024</div><div class="role"><h3>Data Analyst</h3><h4>Firstsource Solutions</h4><ul>
+      <li>Analyzed provider, practitioner and claims data across US states using SQL, Python, Tableau and Power BI.</li>
+      <li>Built data models integrating SQL and Excel sources and automated claims amount and TAT calculations.</li>
+      <li>Supported payment analysis with a 95% collection rate and a 20% reduction in overdue claims amount.</li>
+      <li>Reviewed claims and payment data in Excel and supported dispute resolution and invoicing analysis.</li>
+    </ul></div></article>
+  </div>
+</section>
+
+<section class="section domain">
+  <div class="section-head"><span>05</span><div><p>DOMAIN</p><h2>Healthcare analytics.</h2></div></div>
+  <div class="domain-grid">
+    <div><span>CLAIMS</span><h3>Claims Analysis</h3><p>Claims validation, status analysis, duplicate claim identification, payment analysis and TAT.</p></div>
+    <div><span>PROVIDER</span><h3>Provider Data</h3><p>Provider, practitioner and insurance data analysis, validation and reporting.</p></div>
+    <div><span>BI</span><h3>Business Intelligence</h3><p>KPI-driven Power BI and Tableau reporting built from stakeholder requirements.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div>
+    <div class="section-head"><span>06</span><div><p>CONTACT</p><h2>Let's build something useful with data.</h2></div></div>
+    <p class="lead-text">Open to opportunities in <b>Data Analytics, Business Intelligence, Power BI and Healthcare Analytics.</b></p>
+  </div>
+  <div class="contact-card">
+    <a href="mailto:suriyasivakumar4702@gmail.com"><span>Email</span><b>suriyasivakumar4702@gmail.com</b></a>
+    <a href="tel:+919952066724"><span>Phone</span><b>+91 99520 66724</b></a>
+    <a href="https://www.linkedin.com/in/igsuri03" target="_blank"><span>LinkedIn</span><b>linkedin.com/in/igsuri03 ↗</b></a>
+    <a href="https://github.com/suriyaempire04072002-bit" target="_blank"><span>GitHub</span><b>github.com/suriyaempire04072002-bit ↗</b></a>
+    <a href="resume.pdf" download><span>Resume</span><b>Download Resume ↓</b></a>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 Suriya S</span><span>DATA ANALYST · CHENNAI</span></footer>
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+<div class="lightbox" id="lightbox" aria-hidden="true"><img alt=""><button aria-label="Close">✕</button></div>
+<script src="script.js"></script>
+</body>
+</html>
